@@ -1,0 +1,14 @@
+jupyter nbconvert --to slides Regression-Trees-Project-V6.ipynb --post serve
+(shows slides in editor)
+
+git status
+git add <files to commit>
+git commit <takes you to vim editor: type "i"+<message>+esc+':wq'>
+git push <enter github login>
+
+
+
+to sync forked repo:
+git fetch upstream
+git checkout master
+git merge upstream/master
